@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-18 10:15:00"
+  },
+  {
+    "id": 2,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-18 12:30:00"
+  },
+  {
+    "id": 3,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-18 14:45:00"
+  },
+  {
+    "id": 4,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-19 09:20:00"
+  },
+  {
+    "id": 5,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-19 11:35:00"
+  },
+  {
+    "id": 6,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-19 16:50:00"
+  },
+  {
+    "id": 7,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-20 10:10:00"
+  },
+  {
+    "id": 8,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-20 15:25:00"
+  },
+  {
+    "id": 9,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-20 17:40:00"
+  },
+  {
+    "id": 10,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-21 08:15:00"
+  },
+  {
+    "id": 11,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-21 10:30:00"
+  },
+  {
+    "id": 12,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-21 12:45:00"
+  },
+  {
+    "id": 13,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-22 14:20:00"
+  },
+  {
+    "id": 14,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-22 16:35:00"
+  },
+  {
+    "id": 15,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-22 18:50:00"
+  },
+  {
+    "id": 16,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-23 09:05:00"
+  },
+  {
+    "id": 17,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-23 11:20:00"
+  },
+  {
+    "id": 18,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-23 13:35:00"
+  },
+  {
+    "id": 19,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-24 15:10:00"
+  },
+  {
+    "id": 20,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-24 17:25:00"
+  },
+  {
+    "id": 21,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-25 08:30:00"
+  },
+  {
+    "id": 22,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-25 10:45:00"
+  },
+  {
+    "id": 23,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-25 12:50:00"
+  },
+  {
+    "id": 24,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-25 15:05:00"
+  },
+  {
+    "id": 25,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-25 17:20:00"
+  },
+  {
+    "id": 26,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-25 19:35:00"
+  },
+  {
+    "id": 27,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-26 08:00:00"
+  },
+  {
+    "id": 28,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-26 10:15:00"
+  },
+  {
+    "id": 29,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-26 12:30:00"
+  },
+  {
+    "id": 30,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-26 14:45:00"
+  },
+  {
+    "id": 31,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-26 17:00:00"
+  },
+  {
+    "id": 32,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-26 19:15:00"
+  },
+  {
+    "id": 33,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-27 08:10:00"
+  },
+  {
+    "id": 34,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-27 10:25:00"
+  },
+  {
+    "id": 35,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-27 12:40:00"
+  },
+  {
+    "id": 36,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-27 14:55:00"
+  },
+  {
+    "id": 37,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-27 17:10:00"
+  },
+  {
+    "id": 38,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-27 19:25:00"
+  },
+  {
+    "id": 39,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-28 08:20:00"
+  },
+  {
+    "id": 40,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-28 10:35:00"
+  },
+  {
+    "id": 41,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-28 12:50:00"
+  },
+  {
+    "id": 42,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-28 15:05:00"
+  },
+  {
+    "id": 43,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-28 17:20:00"
+  },
+  {
+    "id": 44,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-28 19:35:00"
+  },
+  {
+    "id": 45,
+    "paymentMethod": "card",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-29 08:30:00"
+  },
+  {
+    "id": 46,
+    "paymentMethod": "cash",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-29 10:45:00"
+  },
+  {
+    "id": 47,
+    "paymentMethod": "card",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-29 13:00:00"
+  },
+  {
+    "id": 48,
+    "paymentMethod": "cash",
+    "price": 20,
+    "productName": "chocolate_1",
+    "saleTimestamp": "2023-11-29 15:15:00"
+  },
+  {
+    "id": 49,
+    "paymentMethod": "card",
+    "price": 25,
+    "productName": "chocolate_2",
+    "saleTimestamp": "2023-11-29 17:30:00"
+  },
+  {
+    "id": 50,
+    "paymentMethod": "cash",
+    "price": 30,
+    "productName": "chocolate_3",
+    "saleTimestamp": "2023-11-29 19:45:00"
+  }
+]
