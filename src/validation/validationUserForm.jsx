@@ -14,8 +14,8 @@ export const validation = {
         }
         return true;
     },
-    usernameValidation: username =>{
-        if (username.length < 3) {
+    surnameValidation: surname =>{
+        if (surname.length < 3) {
             return false;
         }
         return true;

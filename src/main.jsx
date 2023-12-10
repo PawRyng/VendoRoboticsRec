@@ -9,10 +9,13 @@ import MainPage from './pages/mainPage';
 import LinearChart from './pages/linearChart';
 import BarChart from './pages/barChart';
 import CreateUser from './pages/createUser';
+import CheckUserID from './pages/checkUserID';
+import UpdateUser from './pages/updateUser';
 
 //import loaders
 import { loader as tempLoader } from "./loaders/getTemerature";
 import { loader as salesLoader } from "./loaders/getProducts";
+import { loader as getUser } from "./loaders/getUser";
 
 //import actions
 import { action as setUser } from "./actions/setUser";
@@ -35,6 +38,17 @@ const router = createBrowserRouter([
     path: "/create-user",
     element: <CreateUser/>,
     action: setUser
+  },
+  {
+    path: "/update-user",
+    element: <CheckUserID/>,
+    // action: checkUser
+  },
+  {
+    path: "/update-user/:idUser",
+    element: <UpdateUser/>,
+    loader: getUser
+    // action: checkUser
   },
 ]);
 

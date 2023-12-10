@@ -12,7 +12,7 @@ export async function loader() {
       })
       .catch(function (error) {
         console.log(error);
-      });;
+      });
 
 
   //formatowanie danych

@@ -23,6 +23,11 @@ const NavigationComponent = () => {
         >
           Stwórz użytkownika
         </NavLink>
+        <NavLink
+          to="/update-user"
+        >
+          Edytuj użytkownika
+        </NavLink>
     </nav>
   );
 };

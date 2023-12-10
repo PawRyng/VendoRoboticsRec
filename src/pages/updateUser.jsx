@@ -1,25 +1,28 @@
 import React from "react";
-import { Form, redirect, useActionData } from "react-router-dom";
+import { Form, redirect, useActionData, useLoaderData } from "react-router-dom";
 
 //import elements
 import GoBackElement from "../components/goBackElement";
 
 
-const CreateUser = () => {
+const UpdateUser = () => {
 const maxData = new Date().toISOString().split('T')[0];
 const data = useActionData();
+const {getUserByID} = useLoaderData();
 const { errorList } = data !== undefined ? data : {};
-const { sendData } = data !== undefined ? data : {};
-console.log(sendData?.message);
-if(sendData?.message === "OK"){
-    redirect('/')
+
+if(getUserByID?.error){
+    const confirmation = window.confirm( getUserByID.error+"\nWróć na stronę z id");
+    if (confirmation) {
+        window.location.href = '/update-user'
+    } 
 }
+
   return( 
     <>
         <GoBackElement/>
 
-        <Form method="post" action="/create-user">
-            {sendData?.message === "error" && <p>Błąd serwera lub użytkownik są już w bazie danych</p>}
+        <Form method="post" action="/update-user">
             <label htmlFor="name">Imię</label>
             <input type="text" name="name" id="name" />
             {errorList?.name && <label htmlFor="name">{errorList?.name}</label>}
@@ -41,4 +44,4 @@ if(sendData?.message === "OK"){
     );
 };
 
-export default CreateUser;
+export default UpdateUser;
