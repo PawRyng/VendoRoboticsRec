@@ -15,8 +15,12 @@ const BarChart = () => {
     <>
     
         <GoBackElement/>
-        {Object.keys(salesData).length > 0 && <BarChartElement data={salesData} title={title}/>}
-        <TableSalesComponent data={salesData} />
+        <div className="bar-container">
+          <div className="bar-container__bar">
+            {Object.keys(salesData).length > 0 && <BarChartElement data={salesData} title={title}/>}
+          </div>
+          <TableSalesComponent data={salesData} />
+        </div>
     </>
     );
 };

@@ -1,0 +1,123 @@
+$error-color: #ff3333;
+$success-color: #00c851;
+
+form{
+    margin-block-start: 20px;
+    font-family: 'poppinsRegular', sans-serif;
+    .server-error{
+        font-size: 14px;
+        color: $error-color;
+        text-align: center;
+    }
+    .server-success{
+        font-size: 14px;
+        color: $success-color;
+        text-align: center;
+    }
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+        margin: 10px;
+        label{
+            font-size: 14px;
+        }
+        .error-label{
+            width: 100%;
+            font-size: 10px;
+            color: $error-color;
+        }
+        .error-input{
+            border-color: $error-color;
+        }
+        input{
+            width: 60%;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid #2d355b;
+            font-family: 'poppinsRegular', sans-serif;
+            padding: 5px 8px;
+            &:focus,
+            &:active,
+            &:focus-visible{
+                box-shadow: 0 0 5px #fed600;
+                outline:none;
+            }
+        }
+    }
+    input{
+        &[type="submit"]{
+            display: block;
+            margin-inline: auto;
+            margin-block-start: 20px;
+            padding: 10px 50px;
+            border-radius: 5px;
+            background-color: #fed600;
+            outline-color: none;
+            border: none;
+            font-family: 'poppinsRegular', sans-serif;
+            font-size: 16px;
+            transition: .5s;
+            &:hover{
+                color: #fed600;
+                background-color: #2d355b;
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 5%;
+        grid-row-gap: 10px;
+        width: 90%;
+        max-width: 800px;
+        margin-inline: auto;
+        &.form-info{
+            grid-template-rows: repeat(4, 1fr);
+        }
+
+        .server-error,.server-success{
+            font-size: 14px;
+            text-align: center;
+             grid-area: 1 / 1 / 2 / 3;
+        }
+        .server-error{
+            color: $error-color;
+        
+        }
+        .server-success{
+            color: $success-color;
+        }
+
+        .form-container{
+            margin: 0;
+            input{
+                width: 100%;
+                font-size: 15px;
+                padding: 8px 10px;
+            }
+            label{
+                font-size: 16px;
+            }
+            .error-label{
+                font-size: 12px;
+            }
+        }
+        input{
+            &[type="submit"]{
+                margin: 0;
+                width: max-content;
+                height: max-content;
+                padding-block: 8px;
+                font-size: 16px;
+                // align-self: end;
+                margin-block-start: 25px;
+                cursor: pointer;
+            }
+        }
+    }  
+}

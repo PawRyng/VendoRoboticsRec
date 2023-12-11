@@ -9,7 +9,7 @@ const LinearChart = () => {
     return (
       <>
         <GoBackElement/>
-        <main>
+        <main className="linear-chart-container">
           {tempData.length > 0 && <LinearChartElement data={tempData} title={title}/>}
         </main>
       </>

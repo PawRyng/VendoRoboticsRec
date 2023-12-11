@@ -1,0 +1,20 @@
+$path: './fonts/poppins';
+@font-face {
+    font-family: 'poppinsLight';
+    src: url('#{$path}/Poppins-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsRegular';
+    src: url('#{$path}/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsMedium';
+    src: url('#{$path}/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  

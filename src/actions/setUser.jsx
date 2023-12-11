@@ -6,7 +6,7 @@ import {validation} from "../validation/validationUserForm"
 export async function action({request}) { 
   const data = await request.formData();
   const name = data.get('name');
-  const surname = data.get('username');
+  const surname = data.get('surname');
   const email = data.get('e-mail');
   const phoneNumber = data.get('phone')
   const dateOfBirth = data.get('birthday');
@@ -15,7 +15,7 @@ export async function action({request}) {
     errorList.name = "Imię musi posiadać więcej niż 2 znaki" 
   }
   if(!validation.surnameValidation(surname)){
-    errorList.username = "Nazwisko musi posiadać więcej niż 3 znaki" 
+    errorList.surname = "Nazwisko musi posiadać więcej niż 3 znaki" 
   }
   if(!validation.emailValidation(email)){
     errorList.email = "Błędny E-mail" 

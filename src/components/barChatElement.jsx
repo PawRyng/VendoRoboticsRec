@@ -3,7 +3,7 @@ import { Chart as ChartJS, defaults } from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 
 
-
+defaults.responsive = true;
 
 defaults.plugins.title.display = true;
 defaults.plugins.title.align = "center";

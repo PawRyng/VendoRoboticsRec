@@ -1,0 +1,17 @@
+.go-back{
+    $margin:10px;
+
+    font-size: 40px;
+    margin-block-start: $margin;
+    margin-inline-start: $margin;
+    &__button{
+        color: black;
+    }
+}
+@media (min-width: 1000px) {
+    .go-back{
+        $margin:25px;
+        margin-block-start: $margin;
+        margin-inline-start: $margin;
+    }
+}

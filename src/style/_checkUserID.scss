@@ -1,0 +1,69 @@
+.check-user{
+    &__label{
+        font-family: 'poppinsRegular', sans-serif;
+        font-size: 14px;
+        .last-created-id{
+            font-family: 'poppinsMedium', sans-serif;
+        }
+    }
+
+    &__form-container{
+        margin-block-start: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 10px;
+        font-family: 'poppinsRegular', sans-serif;
+        input{
+            font-family: 'poppinsRegular', sans-serif;
+            width: 70%;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid #2d355b;
+            padding: 5px 8px;
+            &:focus,
+            &:active,
+            &:focus-visible{
+                box-shadow: 0 0 5px #fed600;
+                outline:none;
+            }
+        }
+        .button-next-step{
+            width: max-content;
+            padding: 10px 50px;
+            border-radius: 5px;
+            background-color: #fed600;
+            outline-color: none;
+            border: none;
+            text-decoration: none;
+            font-size: 16px;
+            transition: .5s;
+            color: black;
+            &:hover{
+                color: #fed600;
+                background-color: #2d355b;
+            }
+        }
+    }
+}
+@media (min-width: 1000px) {
+    .check-user{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .go-back{
+            align-self: flex-start;
+        }
+        &__label{
+            font-size: 16px;
+        }
+        &__form-container{
+            padding: 0;
+            input{
+                width: 100%;
+                padding: 8px 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}

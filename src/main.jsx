@@ -19,6 +19,11 @@ import { loader as getUser } from "./loaders/getUser";
 
 //import actions
 import { action as setUser } from "./actions/setUser";
+import { action as updateUser } from "./actions/updateUser";
+
+//import style
+import './style/style.css';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -42,13 +47,12 @@ const router = createBrowserRouter([
   {
     path: "/update-user",
     element: <CheckUserID/>,
-    // action: checkUser
   },
   {
     path: "/update-user/:idUser",
     element: <UpdateUser/>,
-    loader: getUser
-    // action: checkUser
+    loader: getUser,
+    action: updateUser
   },
 ]);
 

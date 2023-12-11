@@ -1,0 +1,296 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 100vh;
+  margin-inline: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+.main-page__item {
+  font-family: "poppinsMedium", sans-serif;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.main-page__item svg {
+  font-size: 40px;
+}
+.main-page__item--bar svg {
+  font-size: 35px;
+}
+
+@media (min-width: 1000px) {
+  .main-page {
+    width: 100%;
+    flex-direction: row;
+  }
+  .main-page__item {
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.go-back {
+  font-size: 40px;
+  margin-block-start: 10px;
+  margin-inline-start: 10px;
+}
+.go-back__button {
+  color: black;
+}
+
+@media (min-width: 1000px) {
+  .go-back {
+    margin-block-start: 25px;
+    margin-inline-start: 25px;
+  }
+}
+table {
+  width: 95%;
+  margin-inline: auto;
+  border-collapse: collapse;
+  margin-block-start: 20px;
+}
+table tr th, table tr td {
+  border: 1px solid black;
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 14px;
+}
+table tr td {
+  padding: 5px;
+}
+
+@media (min-width: 1000px) {
+  .bar-container {
+    width: 95%;
+    max-width: 1800px;
+    margin-inline: auto;
+    display: flex;
+    gap: 20px;
+  }
+  .bar-container table {
+    width: 40%;
+  }
+  .bar-container table tr th, .bar-container table tr td {
+    font-size: 16px;
+  }
+  .bar-container__bar {
+    width: 60%;
+  }
+}
+form {
+  margin-block-start: 20px;
+  font-family: "poppinsRegular", sans-serif;
+}
+form .server-error {
+  font-size: 14px;
+  color: #ff3333;
+  text-align: center;
+}
+form .server-success {
+  font-size: 14px;
+  color: #00c851;
+  text-align: center;
+}
+form .form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+form .form-container label {
+  font-size: 14px;
+}
+form .form-container .error-label {
+  width: 100%;
+  font-size: 10px;
+  color: #ff3333;
+}
+form .form-container .error-input {
+  border-color: #ff3333;
+}
+form .form-container input {
+  width: 60%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #2d355b;
+  font-family: "poppinsRegular", sans-serif;
+  padding: 5px 8px;
+}
+form .form-container input:focus, form .form-container input:active, form .form-container input:focus-visible {
+  box-shadow: 0 0 5px #fed600;
+  outline: none;
+}
+form input[type=submit] {
+  display: block;
+  margin-inline: auto;
+  margin-block-start: 20px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #fed600;
+  outline-color: none;
+  border: none;
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 16px;
+  transition: 0.5s;
+}
+form input[type=submit]:hover {
+  color: #fed600;
+  background-color: #2d355b;
+}
+
+@media (min-width: 1000px) {
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin-inline: auto;
+  }
+  form.form-info {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  form .server-error, form .server-success {
+    font-size: 14px;
+    text-align: center;
+    grid-area: 1/1/2/3;
+  }
+  form .server-error {
+    color: #ff3333;
+  }
+  form .server-success {
+    color: #00c851;
+  }
+  form .form-container {
+    margin: 0;
+  }
+  form .form-container input {
+    width: 100%;
+    font-size: 15px;
+    padding: 8px 10px;
+  }
+  form .form-container label {
+    font-size: 16px;
+  }
+  form .form-container .error-label {
+    font-size: 12px;
+  }
+  form input[type=submit] {
+    margin: 0;
+    width: -moz-max-content;
+    width: max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding-block: 8px;
+    font-size: 16px;
+    margin-block-start: 25px;
+    cursor: pointer;
+  }
+}
+.check-user__label {
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 14px;
+}
+.check-user__label .last-created-id {
+  font-family: "poppinsMedium", sans-serif;
+}
+.check-user__form-container {
+  margin-block-start: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  font-family: "poppinsRegular", sans-serif;
+}
+.check-user__form-container input {
+  font-family: "poppinsRegular", sans-serif;
+  width: 70%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #2d355b;
+  padding: 5px 8px;
+}
+.check-user__form-container input:focus, .check-user__form-container input:active, .check-user__form-container input:focus-visible {
+  box-shadow: 0 0 5px #fed600;
+  outline: none;
+}
+.check-user__form-container .button-next-step {
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #fed600;
+  outline-color: none;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.5s;
+  color: black;
+}
+.check-user__form-container .button-next-step:hover {
+  color: #fed600;
+  background-color: #2d355b;
+}
+
+@media (min-width: 1000px) {
+  .check-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .check-user .go-back {
+    align-self: flex-start;
+  }
+  .check-user__label {
+    font-size: 16px;
+  }
+  .check-user__form-container {
+    padding: 0;
+  }
+  .check-user__form-container input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1000px) {
+  .linear-chart-container {
+    width: 90%;
+    max-width: 1500px;
+    margin-inline: auto;
+  }
+}
+@font-face {
+  font-family: "poppinsLight";
+  src: url("./fonts/poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppinsRegular";
+  src: url("./fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppinsMedium";
+  src: url("./fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=style.css.map */

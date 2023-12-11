@@ -1,10 +1,5 @@
 import React from "react";
 
-
-
-
-
-
 const TableSalesComponent = ({data}) => {
   return(
     <table>

@@ -1,11 +1,12 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+import IconArrowGoBackFill from '../assets/icons/back-arrow'
 
 const GoBackElement = () => {
-  const navigate = useNavigate();
   return(
-    <nav>
-      <button onClick={() => navigate(-1)}>go back</button>
+    <nav className="go-back">
+      <Link to="/" className="go-back__button"><IconArrowGoBackFill/></Link>
     </nav>
     )
     
